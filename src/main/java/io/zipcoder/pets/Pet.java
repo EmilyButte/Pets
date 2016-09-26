@@ -3,7 +3,7 @@ package io.zipcoder.pets;
 /**
  * Created by emilybutte on 9/26/16.
  */
-public class Pet {
+public abstract class Pet {
 
     private String name;
 
@@ -19,7 +19,6 @@ public class Pet {
         this.name = name;
     }
 
-    public String speak() {
-        return null;
-    }
+    public abstract String speak();
+
 }
