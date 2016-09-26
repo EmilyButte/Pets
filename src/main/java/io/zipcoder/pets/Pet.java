@@ -19,7 +19,7 @@ public class Pet {
         this.name = name;
     }
 
-    public void speak() {
-        return;
+    public String speak() {
+        return null;
     }
 }

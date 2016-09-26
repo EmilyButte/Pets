@@ -10,8 +10,8 @@ public class Cat extends Pet  {
     }
 
     @Override
-    public void speak() {
-        return;
+    public String speak() {
+        return null;
     }
 
 }
