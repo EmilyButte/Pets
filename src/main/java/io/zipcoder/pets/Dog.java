@@ -5,6 +5,8 @@ package io.zipcoder.pets;
  */
 public class Dog extends Pet {
 
+    Pet dog = new Dog();
+
     public Dog (String name) {
         super(name);
     }

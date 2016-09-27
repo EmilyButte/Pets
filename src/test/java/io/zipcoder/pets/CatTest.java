@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
  * Created by emilybutte on 9/26/16.
  */
 public class CatTest {
+
     Pet c = new Cat("Bob");
 
     @Test
